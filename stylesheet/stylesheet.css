@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	position: relative;
+}
+.sidebar{
+	position: fixed;
+	left: 48px;
+	top: 144px;
+}
+.container{
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 20px;
+	padding-bottom: 36px;
+}
+.title{
+	font-size: 38px;
+}
+p{
+	margin-top: 4%;
+	font-size: 20px;
+}
+@media (max-width: 768px) {
+	.container{
+		width: 80%;
+	}
+	.sidebar{
+		display: none;
+	}
+}
